@@ -1,0 +1,7 @@
+"Name","Type","Interfaces / Virtual Systems","Zone Protection Profile","Packet Buffer Protection","Log Setting","User ID Enabled","User ID Included Networks","User ID Excluded Networks","Device ID Enabled","Device ID Included Networks","Device ID Excluded Networks"
+"Zone1","layer3","ethernet1/1.20","","Yes","","No","any","none","No","any","none"
+"Zone2","layer3","ethernet1/1.15","Recommended_Zone_Protection","Yes","default","No","any","none","No","any","none"
+"INSIDE","layer3","ethernet1/1.5","","Yes","","No","any","none","No","any","none"
+"LAN","layer3","ethernet1/1.10;ethernet1/1.30","","Yes","","Yes","any","none","No","any","none"
+"OUTSIDE","layer3","ethernet1/2;loopback.1;tunnel.1","","Yes","","No","any","none","No","any","none"
+"VPN","layer3","","","Yes","","Yes","any","none","No","any","none"
